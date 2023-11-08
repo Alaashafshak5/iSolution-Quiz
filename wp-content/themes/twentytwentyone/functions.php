@@ -737,7 +737,8 @@ function projects_shortcode_function() {
 	$args = array(
 		'post_type' => 'projects',
 		'post_status' => 'publish',
-		'posts_per_page' => -1
+		'posts_per_page' => -1, 
+		'order' => 'ASC'
 	);
 
 	$query = new WP_Query($args);

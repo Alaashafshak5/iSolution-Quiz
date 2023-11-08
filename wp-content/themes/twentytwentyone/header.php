@@ -23,7 +23,11 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-
+<header>
+	<div class="container">
+		<img src="<?= get_template_directory_uri(); ?>/assets/images/logo.jpg" id="logo">
+	</div>
+</header>
 	<div id="content" class="site-content">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main">

@@ -29,3 +29,5 @@ if (!empty($terms)) {
 		</div>
 	</div>
 </section>
+
+<?php get_footer(); ?>

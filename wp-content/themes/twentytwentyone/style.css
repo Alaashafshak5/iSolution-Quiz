@@ -143,7 +143,25 @@ h2 {
 }
 
 section{
-	margin: 70px 0;
+	margin: 50px 0;
+}
+
+header{
+	margin: 10px 0;
+}
+
+footer{
+	background-color: #000;
+	padding: 20px 0;
+}
+
+.end{
+	text-align: end;
+	color: #fff;
+}
+
+#logo{
+	width: 65px;
 }
 
 #menu-main-menu{
@@ -240,6 +258,10 @@ section{
     font-size: 18px;
   }
 
+  .text{
+	font-size: 16px;
+  }
+
   .card {
     flex-basis: 100%;
     margin-bottom: 20px;
@@ -250,11 +272,15 @@ section{
     font-size: 12px;
   }
 
-  .container {
-    margin: 50px auto;
+  section {
+    margin: 35px auto;
   }
 
   .card img {
     height: 200px;
+  }
+
+  #logo{
+	width: 50px;
   }
 }
